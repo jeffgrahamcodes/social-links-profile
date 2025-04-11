@@ -180,8 +180,14 @@
   .table {
     display: table;
   }
+  .h-22 {
+    height: calc(var(--spacing) * 22);
+  }
   .min-h-screen {
     min-height: 100vh;
+  }
+  .w-22 {
+    width: calc(var(--spacing) * 22);
   }
   .w-sm {
     width: var(--container-sm);
@@ -194,6 +200,9 @@
   }
   .justify-center {
     justify-content: center;
+  }
+  .rounded-full {
+    border-radius: calc(infinity * 1px);
   }
   .rounded-xl {
     border-radius: var(--radius-xl);
